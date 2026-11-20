@@ -1,0 +1,45 @@
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 30px;
+}
+
+h1 {
+  color: #222;
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.lista-filmes {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.filme {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.filme h2 {
+  color: #333;
+  margin-top: 0;
+}
+
+.filme p {
+  color: #666;
+}
+
+.erro {
+  color: red;
+  text-align: center;
+}
